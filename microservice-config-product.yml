@@ -16,9 +16,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/springcloud_db01?serverTimezone=GMT%2B8 #数据库连接地址，*****注意库名 db01***************
-    username: root
-    password: root
+    url: jdbc:mysql://10.47.211.229:3306/gomstpub?serverTimezone=GMT%2B8 # 数据库名称
+    username: gomstuser
+    password: qd2mp8FW54MR
     dbcp2:
       min-idle: 5
       initial-size: 5
